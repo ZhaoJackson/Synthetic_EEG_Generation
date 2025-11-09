@@ -1,0 +1,320 @@
+{
+  "config": {
+    "groups": "pooled",
+    "condition": "each",
+    "generator": "interp",
+    "balanced": true,
+    "k": 5,
+    "noise": 0.0,
+    "cond_onehot": false,
+    "transfer_to": null,
+    "save_dir": "../output/phase3_conditional"
+  },
+  "group_filter": [
+    "a",
+    "c"
+  ],
+  "condition_filter": null,
+  "train_counts": {
+    "total": 1567,
+    "class": {
+      "1": 787,
+      "0": 780
+    },
+    "bucket": {
+      "1_S2_nomatch": 251,
+      "1_S2_match": 268,
+      "0_S1": 268,
+      "1_S1": 268,
+      "0_S2_match": 264,
+      "0_S2_nomatch": 248
+    }
+  },
+  "allocation": {
+    "0_S1": 248,
+    "0_S2_match": 248,
+    "0_S2_nomatch": 248,
+    "1_S1": 248,
+    "1_S2_match": 248,
+    "1_S2_nomatch": 248
+  },
+  "per_condition": {
+    "S1": {
+      "counts": {
+        "real_test": 264,
+        "synthetic": 496
+      },
+      "distribution": {
+        "ks": [
+          {
+            "band": "Delta",
+            "ks_stat": 0.048020527859237536,
+            "p_value": 0.7987714639109272
+          },
+          {
+            "band": "Theta",
+            "ks_stat": 0.10263929618768329,
+            "p_value": 0.048598328910602714
+          },
+          {
+            "band": "Alpha",
+            "ks_stat": 0.05486314760508309,
+            "p_value": 0.6516074547070198
+          },
+          {
+            "band": "Beta",
+            "ks_stat": 0.05138074291300098,
+            "p_value": 0.7282227860273116
+          },
+          {
+            "band": "Gamma",
+            "ks_stat": 0.07985092864125122,
+            "p_value": 0.20781788907997503
+          }
+        ],
+        "mmd": -0.6668832117595684,
+        "corr_sim": 0.946509910651099,
+        "spearman": [
+          0.08922286214983295,
+          0.008995038282881746,
+          -0.1026622658894068,
+          0.06570643285132594,
+          0.14524097614296513
+        ]
+      },
+      "detectability": {
+        "accuracy": 0.6334661354581673,
+        "auc": 0.6247546958228203
+      },
+      "utility": {
+        "TRTR": 0.6287878787878788,
+        "TSTR": 0.6553030303030303,
+        "gap": 0.02651515151515149,
+        "n_test": 264,
+        "n_synth": 496
+      }
+    },
+    "S2_match": {
+      "counts": {
+        "real_test": 263,
+        "synthetic": 496
+      },
+      "distribution": {
+        "ks": [
+          {
+            "band": "Delta",
+            "ks_stat": 0.11641420336072611,
+            "p_value": 0.01710445096029125
+          },
+          {
+            "band": "Theta",
+            "ks_stat": 0.0976174414326015,
+            "p_value": 0.0694939440153981
+          },
+          {
+            "band": "Alpha",
+            "ks_stat": 0.08801208144241383,
+            "p_value": 0.12943567807565812
+          },
+          {
+            "band": "Beta",
+            "ks_stat": 0.07816141297681835,
+            "p_value": 0.22894013032380067
+          },
+          {
+            "band": "Gamma",
+            "ks_stat": 0.06174107690420704,
+            "p_value": 0.5036658574410964
+          }
+        ],
+        "mmd": -0.8329981044139458,
+        "corr_sim": 0.9802501354885943,
+        "spearman": [
+          -0.0025832306049502433,
+          0.01531302700682799,
+          0.028477214913278735,
+          -0.022067949640205916,
+          0.13107487559216444
+        ]
+      },
+      "detectability": {
+        "accuracy": 0.6772908366533864,
+        "auc": 0.6687342304457528
+      },
+      "utility": {
+        "TRTR": 0.7262357414448669,
+        "TSTR": 0.7300380228136882,
+        "gap": 0.0038022813688213253,
+        "n_test": 263,
+        "n_synth": 496
+      }
+    },
+    "S2_nomatch": {
+      "counts": {
+        "real_test": 246,
+        "synthetic": 496
+      },
+      "distribution": {
+        "ks": [
+          {
+            "band": "Delta",
+            "ks_stat": 0.04717414109624967,
+            "p_value": 0.8357624069089497
+          },
+          {
+            "band": "Theta",
+            "ks_stat": 0.0676140833988985,
+            "p_value": 0.41594131037542115
+          },
+          {
+            "band": "Alpha",
+            "ks_stat": 0.0659257802255442,
+            "p_value": 0.4474472292092611
+          },
+          {
+            "band": "Beta",
+            "ks_stat": 0.08554615788093364,
+            "p_value": 0.1671537546797423
+          },
+          {
+            "band": "Gamma",
+            "ks_stat": 0.057435090479937057,
+            "p_value": 0.6227269448535064
+          }
+        ],
+        "mmd": -2.428894313256478,
+        "corr_sim": 0.9591002882149061,
+        "spearman": [
+          0.06475759179997669,
+          0.005810693982342615,
+          0.00012091340403677704,
+          0.03288643067460275,
+          -0.0013695458230565615
+        ]
+      },
+      "detectability": {
+        "accuracy": 0.6530612244897959,
+        "auc": 0.6350120445648901
+      },
+      "utility": {
+        "TRTR": 0.6666666666666666,
+        "TSTR": 0.7073170731707317,
+        "gap": 0.04065040650406504,
+        "n_test": 246,
+        "n_synth": 496
+      }
+    }
+  },
+  "pooled": {
+    "counts": {
+      "real_test": 773,
+      "synthetic": 1488
+    },
+    "distribution": {
+      "ks": [
+        {
+          "band": "Delta",
+          "ks_stat": 0.04902088636648166,
+          "p_value": 0.1662102441731845
+        },
+        {
+          "band": "Theta",
+          "ks_stat": 0.08470610941868714,
+          "p_value": 0.0012482853191702484
+        },
+        {
+          "band": "Alpha",
+          "ks_stat": 0.04159537620498268,
+          "p_value": 0.33045178776846407
+        },
+        {
+          "band": "Beta",
+          "ks_stat": 0.042701247756958646,
+          "p_value": 0.3006360657454565
+        },
+        {
+          "band": "Gamma",
+          "ks_stat": 0.040881602192268635,
+          "p_value": 0.35085607252559253
+        }
+      ],
+      "mmd": -0.4557708629519652,
+      "corr_sim": 0.9951173248992817,
+      "spearman": [
+        0.008436856014274607,
+        0.005259833788680719,
+        0.004251254067209902,
+        0.008469396346482888,
+        -0.07301343278889175
+      ]
+    },
+    "detectability": {
+      "accuracy": 0.6813922356091031,
+      "auc": 0.6980551570221586
+    },
+    "utility": {
+      "TRTR": 0.6739974126778784,
+      "TSTR": 0.6765847347994826,
+      "gap": 0.002587322121604174,
+      "n_test": 773,
+      "n_synth": 1488
+    }
+  },
+  "cross_condition": [
+    {
+      "source": "S1",
+      "target": "S2_match",
+      "TSTR_cross": 0.6387832699619772,
+      "n_source": 496,
+      "n_target": 263,
+      "baseline_TRTR": 0.7262357414448669,
+      "gap_vs_baseline": 0.0874524714828897
+    },
+    {
+      "source": "S1",
+      "target": "S2_nomatch",
+      "TSTR_cross": 0.6585365853658537,
+      "n_source": 496,
+      "n_target": 246,
+      "baseline_TRTR": 0.6666666666666666,
+      "gap_vs_baseline": 0.008130081300812941
+    },
+    {
+      "source": "S2_match",
+      "target": "S1",
+      "TSTR_cross": 0.6098484848484849,
+      "n_source": 496,
+      "n_target": 264,
+      "baseline_TRTR": 0.6287878787878788,
+      "gap_vs_baseline": 0.018939393939393923
+    },
+    {
+      "source": "S2_match",
+      "target": "S2_nomatch",
+      "TSTR_cross": 0.6666666666666666,
+      "n_source": 496,
+      "n_target": 246,
+      "baseline_TRTR": 0.6666666666666666,
+      "gap_vs_baseline": 0.0
+    },
+    {
+      "source": "S2_nomatch",
+      "target": "S1",
+      "TSTR_cross": 0.6212121212121212,
+      "n_source": 496,
+      "n_target": 264,
+      "baseline_TRTR": 0.6287878787878788,
+      "gap_vs_baseline": 0.007575757575757569
+    },
+    {
+      "source": "S2_nomatch",
+      "target": "S2_match",
+      "TSTR_cross": 0.6996197718631179,
+      "n_source": 496,
+      "n_target": 263,
+      "baseline_TRTR": 0.7262357414448669,
+      "gap_vs_baseline": 0.026615969581749055
+    }
+  ],
+  "cross_group": []
+}

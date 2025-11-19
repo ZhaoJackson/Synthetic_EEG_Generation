@@ -1,0 +1,197 @@
+{
+    "mixup": {
+        "ks": [
+            {
+                "band": "Delta",
+                "ks_stat": 0.8482990506329114,
+                "p_value": 0.0
+            },
+            {
+                "band": "Theta",
+                "ks_stat": 0.7666963343881856,
+                "p_value": 0.0
+            },
+            {
+                "band": "Alpha",
+                "ks_stat": 0.7453685390295359,
+                "p_value": 0.0
+            },
+            {
+                "band": "Beta",
+                "ks_stat": 0.7495220200421941,
+                "p_value": 0.0
+            },
+            {
+                "band": "Gamma",
+                "ks_stat": 0.7009493670886076,
+                "p_value": 0.0
+            },
+            {
+                "band": "total_power",
+                "ks_stat": 0.9503065664556962,
+                "p_value": 0.0
+            }
+        ],
+        "mmd": -32.96860717395373,
+        "tstr_trtr": {
+            "trtr": 0.6907482694209428,
+            "tstr": 0.4711020766948687
+        }
+    },
+    "corr": {
+        "ks": [
+            {
+                "band": "Delta",
+                "ks_stat": 0.8179390822784811,
+                "p_value": 0.0
+            },
+            {
+                "band": "Theta",
+                "ks_stat": 0.6735726529535866,
+                "p_value": 0.0
+            },
+            {
+                "band": "Alpha",
+                "ks_stat": 0.628724947257384,
+                "p_value": 0.0
+            },
+            {
+                "band": "Beta",
+                "ks_stat": 0.6850936181434599,
+                "p_value": 0.0
+            },
+            {
+                "band": "Gamma",
+                "ks_stat": 0.5100870253164558,
+                "p_value": 0.0
+            },
+            {
+                "band": "total_power",
+                "ks_stat": 0.9590585443037974,
+                "p_value": 0.0
+            }
+        ],
+        "mmd": -30.093618600054242,
+        "tstr_trtr": {
+            "trtr": 0.6907482694209428,
+            "tstr": 0.5645533457861773
+        }
+    },
+    "wgangp": {
+        "ks": [
+            {
+                "band": "Delta",
+                "ks_stat": 0.8388053797468354,
+                "p_value": 0.0
+            },
+            {
+                "band": "Theta",
+                "ks_stat": 0.7540381065400844,
+                "p_value": 0.0
+            },
+            {
+                "band": "Alpha",
+                "ks_stat": 0.7589167985232068,
+                "p_value": 0.0
+            },
+            {
+                "band": "Beta",
+                "ks_stat": 0.7369626845991561,
+                "p_value": 0.0
+            },
+            {
+                "band": "Gamma",
+                "ks_stat": 0.7243374208860759,
+                "p_value": 0.0
+            },
+            {
+                "band": "total_power",
+                "ks_stat": 0.935126582278481,
+                "p_value": 0.0
+            }
+        ],
+        "mmd": -34.14099972222709,
+        "tstr_trtr": {
+            "trtr": 0.6907482694209428,
+            "tstr": 0.4820898802329414
+        }
+    },
+    "copula": {
+        "ks": [
+            {
+                "band": "Delta",
+                "ks_stat": 0.7907766350210971,
+                "p_value": 0.0
+            },
+            {
+                "band": "Theta",
+                "ks_stat": 0.716706223628692,
+                "p_value": 0.0
+            },
+            {
+                "band": "Alpha",
+                "ks_stat": 0.7141679852320676,
+                "p_value": 0.0
+            },
+            {
+                "band": "Beta",
+                "ks_stat": 0.6788304324894515,
+                "p_value": 0.0
+            },
+            {
+                "band": "Gamma",
+                "ks_stat": 0.6966145833333333,
+                "p_value": 0.0
+            },
+            {
+                "band": "total_power",
+                "ks_stat": 0.9086563818565401,
+                "p_value": 0.0
+            }
+        ],
+        "mmd": -32.69243017409994,
+        "tstr_trtr": {
+            "trtr": 0.6907482694209428,
+            "tstr": 0.5522470058235359
+        }
+    },
+    "interp": {
+        "ks": [
+            {
+                "band": "Delta",
+                "ks_stat": 0.8432885021097046,
+                "p_value": 0.0
+            },
+            {
+                "band": "Theta",
+                "ks_stat": 0.757301555907173,
+                "p_value": 0.0
+            },
+            {
+                "band": "Alpha",
+                "ks_stat": 0.7517470991561181,
+                "p_value": 0.0
+            },
+            {
+                "band": "Beta",
+                "ks_stat": 0.7384131065400844,
+                "p_value": 0.0
+            },
+            {
+                "band": "Gamma",
+                "ks_stat": 0.7553237078059072,
+                "p_value": 0.0
+            },
+            {
+                "band": "total_power",
+                "ks_stat": 0.9378790875527426,
+                "p_value": 0.0
+            }
+        ],
+        "mmd": -34.19168626254911,
+        "tstr_trtr": {
+            "trtr": 0.6907482694209428,
+            "tstr": 0.5570267003625975
+        }
+    }
+}

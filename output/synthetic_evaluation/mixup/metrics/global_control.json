@@ -1,0 +1,45 @@
+{
+  "model_key": "mixup",
+  "model_name": "Mixup",
+  "scope": "global_by_label",
+  "condition": null,
+  "label": "control",
+  "label_value": 0,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.08785752118644063,
+        "p": 3.6037511060767083e-51
+      },
+      {
+        "band": "Theta",
+        "ks": 0.11970338983050854,
+        "p": 9.457446835831317e-95
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.09057203389830504,
+        "p": 2.331383513451963e-54
+      },
+      {
+        "band": "Beta",
+        "ks": 0.05660752118644069,
+        "p": 1.7809196462214023e-21
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.15903072033898302,
+        "p": 2.6150024036732105e-167
+      }
+    ],
+    "mmd": -0.10541797787314611
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.7053955643826547
+  },
+  "sample_sizes": {
+    "n_real": 15104,
+    "n_syn": 15104
+  }
+}

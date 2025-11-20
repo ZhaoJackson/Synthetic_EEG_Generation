@@ -1,0 +1,45 @@
+{
+  "model_key": "corr",
+  "model_name": "Correlation Sampling",
+  "scope": "condition_by_label",
+  "condition": "S1",
+  "label": "control",
+  "label_value": 0,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.2443359375,
+        "p": 1.6317702652610233e-134
+      },
+      {
+        "band": "Theta",
+        "ks": 0.2203125,
+        "p": 3.11694586668797e-109
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.22109375,
+        "p": 5.178207410580736e-110
+      },
+      {
+        "band": "Beta",
+        "ks": 0.1509765625,
+        "p": 2.675615452443723e-51
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.2859375,
+        "p": 9.043609372700983e-185
+      }
+    ],
+    "mmd": -0.1070426889293783
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.888671875
+  },
+  "sample_sizes": {
+    "n_real": 5120,
+    "n_syn": 5120
+  }
+}

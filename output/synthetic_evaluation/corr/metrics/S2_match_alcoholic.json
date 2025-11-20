@@ -1,0 +1,45 @@
+{
+  "model_key": "corr",
+  "model_name": "Correlation Sampling",
+  "scope": "condition_by_label",
+  "condition": "S2_match",
+  "label": "alcoholic",
+  "label_value": 1,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.3705078125,
+        "p": 4.8934678535e-313
+      },
+      {
+        "band": "Theta",
+        "ks": 0.333203125,
+        "p": 4.680402561254673e-252
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.359765625,
+        "p": 9.443897281475463e-295
+      },
+      {
+        "band": "Beta",
+        "ks": 0.2033203125,
+        "p": 5.5582223708384704e-93
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.25,
+        "p": 7.173130620818705e-141
+      }
+    ],
+    "mmd": -0.3870813035657985
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.9375
+  },
+  "sample_sizes": {
+    "n_real": 5120,
+    "n_syn": 5120
+  }
+}

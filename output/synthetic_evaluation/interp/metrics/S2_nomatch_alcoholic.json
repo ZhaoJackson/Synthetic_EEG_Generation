@@ -1,0 +1,45 @@
+{
+  "model_key": "interp",
+  "model_name": "Classwise Interpolation",
+  "scope": "condition_by_label",
+  "condition": "S2_nomatch",
+  "label": "alcoholic",
+  "label_value": 1,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.015424679487179488,
+        "p": 0.5926478993642391
+      },
+      {
+        "band": "Theta",
+        "ks": 0.01842948717948718,
+        "p": 0.36477182187315627
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.01842948717948718,
+        "p": 0.36477182187315627
+      },
+      {
+        "band": "Beta",
+        "ks": 0.014623397435897436,
+        "p": 0.6599525510544292
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.020032051282051284,
+        "p": 0.2691609492424604
+      }
+    ],
+    "mmd": -0.03892882151191035
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.4589452603471295
+  },
+  "sample_sizes": {
+    "n_real": 4992,
+    "n_syn": 4992
+  }
+}

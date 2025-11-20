@@ -1,0 +1,45 @@
+{
+  "model_key": "copula",
+  "model_name": "Gaussian Copula",
+  "scope": "condition_by_label",
+  "condition": "S2_match",
+  "label": "control",
+  "label_value": 0,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.07238924050632911,
+        "p": 6.1052255959150426e-12
+      },
+      {
+        "band": "Theta",
+        "ks": 0.04173259493670886,
+        "p": 0.0002992842981183288
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.0401503164556962,
+        "p": 0.0005763752182881235
+      },
+      {
+        "band": "Beta",
+        "ks": 0.02946993670886076,
+        "p": 0.024771123470780525
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.026700949367088608,
+        "p": 0.054390114660357605
+      }
+    ],
+    "mmd": -0.1021201528866742
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.6591957811470006
+  },
+  "sample_sizes": {
+    "n_real": 5056,
+    "n_syn": 5056
+  }
+}

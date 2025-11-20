@@ -1,0 +1,45 @@
+{
+  "model_key": "mixup",
+  "model_name": "Mixup",
+  "scope": "condition_by_label",
+  "condition": "S1",
+  "label": "alcoholic",
+  "label_value": 1,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.268359375,
+        "p": 1.592235267951061e-162
+      },
+      {
+        "band": "Theta",
+        "ks": 0.2638671875,
+        "p": 4.4551284024205e-157
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.2365234375,
+        "p": 5.395204307342992e-126
+      },
+      {
+        "band": "Beta",
+        "ks": 0.17421875,
+        "p": 2.9605616470555733e-68
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.132421875,
+        "p": 1.578579339475812e-39
+      }
+    ],
+    "mmd": -0.29723493732815864
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.7216796875
+  },
+  "sample_sizes": {
+    "n_real": 5120,
+    "n_syn": 5120
+  }
+}

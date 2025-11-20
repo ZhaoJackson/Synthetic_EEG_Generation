@@ -1,0 +1,45 @@
+{
+  "model_key": "wgangp",
+  "model_name": "WGAN-GP",
+  "scope": "condition_by_label",
+  "condition": "S1",
+  "label": "alcoholic",
+  "label_value": 1,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.115625,
+        "p": 3.235191296930752e-30
+      },
+      {
+        "band": "Theta",
+        "ks": 0.11796875,
+        "p": 1.9366752301232141e-31
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.0927734375,
+        "p": 1.3713152143186126e-19
+      },
+      {
+        "band": "Beta",
+        "ks": 0.0451171875,
+        "p": 5.9386534129626085e-05
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.0529296875,
+        "p": 1.172818713891048e-06
+      }
+    ],
+    "mmd": -0.19210159265241877
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.6927083333333334
+  },
+  "sample_sizes": {
+    "n_real": 5120,
+    "n_syn": 5120
+  }
+}

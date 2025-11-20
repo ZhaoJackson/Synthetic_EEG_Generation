@@ -1,0 +1,45 @@
+{
+  "model_key": "interp",
+  "model_name": "Classwise Interpolation",
+  "scope": "condition_by_label",
+  "condition": "S2_nomatch",
+  "label": "control",
+  "label_value": 0,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.012987012987012988,
+        "p": 0.8002904826991478
+      },
+      {
+        "band": "Theta",
+        "ks": 0.016639610389610388,
+        "p": 0.5025691221843226
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.01278409090909091,
+        "p": 0.8155084040647943
+      },
+      {
+        "band": "Beta",
+        "ks": 0.01948051948051948,
+        "p": 0.30710276882587945
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.018262987012987012,
+        "p": 0.3837809279247396
+      }
+    ],
+    "mmd": -0.08150869904476554
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.4859655055799797
+  },
+  "sample_sizes": {
+    "n_real": 4928,
+    "n_syn": 4928
+  }
+}

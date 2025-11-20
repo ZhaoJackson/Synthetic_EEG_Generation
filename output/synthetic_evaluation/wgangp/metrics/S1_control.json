@@ -1,0 +1,45 @@
+{
+  "model_key": "wgangp",
+  "model_name": "WGAN-GP",
+  "scope": "condition_by_label",
+  "condition": "S1",
+  "label": "control",
+  "label_value": 0,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.1271484375,
+        "p": 1.8152840423848896e-36
+      },
+      {
+        "band": "Theta",
+        "ks": 0.175,
+        "p": 7.219372558367082e-69
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.1068359375,
+        "p": 7.501930314977064e-26
+      },
+      {
+        "band": "Beta",
+        "ks": 0.06640625,
+        "p": 3.0847149841532107e-10
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.082421875,
+        "p": 1.5125724295490092e-15
+      }
+    ],
+    "mmd": -0.025616488464471843
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.7076822916666666
+  },
+  "sample_sizes": {
+    "n_real": 5120,
+    "n_syn": 5120
+  }
+}

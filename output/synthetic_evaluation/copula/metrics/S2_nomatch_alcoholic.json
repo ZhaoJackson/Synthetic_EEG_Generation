@@ -1,0 +1,45 @@
+{
+  "model_key": "copula",
+  "model_name": "Gaussian Copula",
+  "scope": "condition_by_label",
+  "condition": "S2_nomatch",
+  "label": "alcoholic",
+  "label_value": 1,
+  "distribution": {
+    "ks": [
+      {
+        "band": "Delta",
+        "ks": 0.06229967948717949,
+        "p": 7.618687694264682e-09
+      },
+      {
+        "band": "Theta",
+        "ks": 0.05248397435897436,
+        "p": 2.1231814842510894e-06
+      },
+      {
+        "band": "Alpha",
+        "ks": 0.048677884615384616,
+        "p": 1.4533291825508126e-05
+      },
+      {
+        "band": "Beta",
+        "ks": 0.07692307692307693,
+        "p": 2.892320785306654e-13
+      },
+      {
+        "band": "Gamma",
+        "ks": 0.08673878205128205,
+        "p": 9.353395298283641e-17
+      }
+    ],
+    "mmd": -0.10325902576546397
+  },
+  "classification": {
+    "real_vs_syn_acc": 0.695260347129506
+  },
+  "sample_sizes": {
+    "n_real": 4992,
+    "n_syn": 4992
+  }
+}
